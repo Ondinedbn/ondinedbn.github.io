@@ -1,0 +1,111 @@
+
+@import url("components/card.css");
+@import url("components/navbar.css");
+@import url("components/banner.css");
+@import url("components/button.css");
+@import url("components/card-category.css");
+@import url("components/form.css");
+@import url("components/parallax.css");
+@import url("components/slider.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Nunito', sans-serif;
+  font-size: 18px;
+  background: #F4F4F4;
+  color: white;
+}
+
+p, ul {
+  text-align: justify;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Nunito', sans-serif;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 30px;
+  color: white;
+}
+
+h2 {
+  font-size: 23px;
+  margin-bottom: 20px;
+  color : #82AAE3;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+a {
+  color: #82AAE3;
+}
+
+.padded {
+  padding: 30px 0;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+}
+
+.menu {
+  text-align: center;
+  padding: 14px;
+}
+
+.list-inline {
+  padding: 0px 20px;
+  list-style: none;
+  display: inline-block;
+}
+
+.list-inline a {
+  color: #82AAE3;
+}
+
+.dark-mode-switch {
+  padding: 20px;
+  display: flex;
+  align-items: baseline;
+}
+
+.pickr-theme {
+  padding: 20px;
+  display: flex;
+  align-items: baseline;
+}
+
+.color-theme {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.container {
+  min-height: calc(100vh - 70px - 80px);
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}

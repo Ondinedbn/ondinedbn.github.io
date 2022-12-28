@@ -1,0 +1,32 @@
+.card {
+  background-size: cover;
+  height: 150px;
+  border-radius: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 22px;
+  color: white;
+  font-family: 'Nunito', sans-serif;
+  font-weight: bolder;
+  text-shadow: 0 0 10px rgba(0,0,0,0.7);
+  height: 300px;
+  border : none !important;
+}
+
+.card-white {
+  background:white;
+  padding: 15px;
+  border: 1px solid lightgrey;
+  display: flex;
+  justify-content: center;
+}
+
+.cards {
+  padding-top:2px !important;
+  flex-grow: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 32px;
+  padding: 32px;
+}

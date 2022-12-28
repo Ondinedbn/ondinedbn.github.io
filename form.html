@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S'inscrire à la Newsletter</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="javascript.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.2/css/all.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@simonwep/pickr/dist/themes/nano.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="navbar-minimalist">
+      <a href="index.html"><i class="fa-solid fa-p"></i></a>
+    </div>
+    <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://images.unsplash.com/photo-1582675002932-42541ef3c690?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80)">
+      <h1>Newsletter : recevoir toute notre actualité sur les Pingouins !</h1>
+    </div>
+    <div class="container">
+      <div class="form" style ="background-image: url(https://images.pexels.com/photos/1036155/pexels-photo-1036155.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);">
+        <form action="#" class="row" style="text-align: center;padding: 10px;">
+          <div class="col-6 mb-3">
+            <label for="first-name" class="form-label">Prénom</label>
+            <input id="first-name" type="text" class="form-control" placeholder="Prénom">
+          </div>
+          <div class="col-6 mb-3">
+            <label for="last-name" class="form-label">Nom</label>
+            <input id="last-name" type="text" class="form-control" placeholder="Nom">
+          </div>
+          <div class="col-12 mb-3">
+            <label for="mail" class="form-label">Adresse mail</label>
+            <input id="mail" type="text" class="form-control" placeholder="Adresse mail">
+          </div>
+          <div class="col-12 mb-3">
+          <label for="favorite">Comment avez-vous entendu parler de nous ?</label>
+          <select id="favorite" name="endroit">
+            <option value="simplon">Simplon</option>
+            <option value="ondine">Ondine</option>
+            <option value="Facebook">Facebook</option>
+          </select>
+          </div>
+          <div class="col-12 mb-3">
+            <a class = "btn-ghost" onclick="popUp()">S'inscrire</a>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="color-theme">
+      <div class= "pickr-theme">
+        <div style="padding: 5px;">
+          <p>Arrière-plan</p>
+        </div>
+        <div class="color-picker"></div>
+      </div>
+      <div class="dark-mode-switch">
+        <div style="padding: 5px;">
+          <p>Mode Sombre</p>
+        </div>
+        <div>
+          <i class="fa-solid fa-circle" onclick="darkMode()"></i>
+          <i class="fa-regular fa-circle" onclick="lightMode()"></i>
+        </div>
+      </div>
+    </div>
+    <div class="card-white">
+      <ul>
+        <li class="list-inline">
+          <a href="https://fr-fr.facebook.com/" target="_blank">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+        </li>
+        <li class="list-inline">
+          <a href="https://www.linkedin.com/" target="_blank">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+        </li>
+        <li class="list-inline">
+          <a href="https://www.instagram.com/" target="_blank">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@simonwep/pickr/dist/pickr.min.js"></script>
+    <script src="pickr.js"></script>
+  </body>
+</html>
